@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="container-prisma relative">
         <p className="olho text-ambar!">Governança pública orientada a dados</p>
 
-        <h1 className="max-w-4xl font-serif text-2xl leading-[1.15] text-white! sm:text-4xl">
+        <h1 className="max-w-4xl font-serif text-3xl leading-[1.15] text-white! sm:text-5xl">
           O município faz o trabalho todos os dias.
           <br className="hidden sm:block" /> O problema é provar que fez.
         </h1>
