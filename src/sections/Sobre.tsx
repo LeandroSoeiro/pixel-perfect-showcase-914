@@ -7,8 +7,8 @@ export default function Sobre() {
       id="sobre"
       fundo="cinza"
       olho="Quem somos"
-      titulo="Uma consultoria pequena, com regras públicas"
-      intro="A Prisma é uma empresa enxuta, com especialistas acionadas por projeto — administração e saúde no pilar social, contabilidade no pilar fiscal. Preferimos dizer isso a inflar a estrutura: é verificável, e cliente confere."
+      titulo="Uma consultoria com regras públicas"
+      intro="A estrutura da Prisma é enxuta por desenho: especialistas acionadas por ordem de serviço, conforme o escopo de cada projeto — administração e saúde no pilar social, engenharia ambiental e contabilidade no pilar fiscal. A composição societária consta em contrato e é verificável por qualquer cliente antes da contratação."
     >
       <div className="grid gap-px overflow-hidden border border-cinza-borda bg-cinza-borda sm:grid-cols-2">
         {PRINCIPIOS.map((p) => (
@@ -19,11 +19,6 @@ export default function Sobre() {
         ))}
       </div>
 
-      <p className="mt-8 max-w-leitura text-sm leading-relaxed text-cinza">
-        Não citamos município cliente sem autorização escrita, e não publicamos falha específica de
-        município identificável. Achado sensível é comunicado por escrito ao órgão — nunca vira
-        conteúdo.
-      </p>
     </Secao>
   );
 }
