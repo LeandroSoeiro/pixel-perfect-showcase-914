@@ -34,11 +34,6 @@ export default function Rodape() {
                 Método
               </a>
             </li>
-            <li>
-              <Link to="/materiais" className="hover:text-white">
-                Materiais
-              </Link>
-            </li>
           </ul>
         </div>
 

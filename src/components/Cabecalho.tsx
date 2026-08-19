@@ -6,7 +6,7 @@ const LINKS = [
   { href: "/#problema", rotulo: "O problema" },
   { href: "/#servicos", rotulo: "Serviços" },
   { href: "/#metodo", rotulo: "Método" },
-  { href: "/materiais", rotulo: "Materiais" },
+  
 ];
 
 export default function Cabecalho() {
