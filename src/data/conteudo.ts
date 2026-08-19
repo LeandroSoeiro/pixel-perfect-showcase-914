@@ -171,32 +171,6 @@ export const PRINCIPIOS = [
   },
 ];
 
-export const MATERIAIS = [
-  {
-    id: "guia-pntp",
-    titulo: "O que o TCE olha no portal do município",
-    formato: "PDF · 12 páginas",
-    resumo:
-      "Os itens de transparência ativa mais cobrados, o que costuma faltar e como registrar a evidência com data.",
-    disponivel: false,
-  },
-  {
-    id: "checklist-lgpd",
-    titulo: "Avaliação rápida de LGPD — 20 itens",
-    formato: "Planilha",
-    resumo:
-      "O questionário que usamos na primeira leitura. Responder leva uma hora e mostra onde o município está.",
-    disponivel: false,
-  },
-  {
-    id: "minuta-etp",
-    titulo: "Minuta de ETP e termo de referência",
-    formato: "Word",
-    resumo:
-      "Modelo de apoio para o setor de contratações montar o processo de dispensa sem travar no rito.",
-    disponivel: false,
-  },
-];
 
 export const FATOS_CONTRATACAO = {
   teto: "R$ 65.492,11",
