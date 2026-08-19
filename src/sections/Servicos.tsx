@@ -75,11 +75,6 @@ export default function Servicos() {
         </div>
       </div>
 
-      <p className="mt-10 max-w-leitura text-sm leading-relaxed text-cinza">
-        O primeiro contrato é dimensionado para caber no limite de dispensa de licitação —{" "}
-        {FATOS_CONTRATACAO.teto} ({FATOS_CONTRATACAO.fonteTeto}) — e a execução só começa depois da
-        nota de empenho.
-      </p>
     </Secao>
   );
 }
